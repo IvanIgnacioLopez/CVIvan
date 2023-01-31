@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+section#hero{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase; 
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+} 
+
+.estudios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.detalledeestudios{
+    border: 10px solid lightcoral;
+    border-radius: 15px;
+    width: 300 px;
+    margin: 20px;
+}
+.detalledeestudios img{
+    width: 100%; 
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aquamarine;
+}
+
+nav ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20;
+    padding: 10px 20px;
+    background-color: aqua;
+    ;
+}
+
+body{
+    background-color: white;
+}
+
+p {
+    color:gray;
+    font-size: large;
+}
+/** 
+asi se comenta en css
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:black ;
+    
+}
+h2{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:black ;
+    
+}
+
+#hero{
+    
+}*/
+
+/** COMENTARIO */
